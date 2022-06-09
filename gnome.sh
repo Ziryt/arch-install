@@ -9,7 +9,7 @@ sudo firewall-cmd --add-port=1025-65535/udp --permanent
 sudo firewall-cmd --reload
 
 git clone https://aur.archlinux.org/yay.git
-cd /yay
+cd yay/
 makepkg -si --noconfirm
 
 sudo pacman -S --noconfirm gdm gnome gnome-tweaks obs-studio vlc grub-customizer dconf-editor steam
